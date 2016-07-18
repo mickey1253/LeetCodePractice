@@ -1,7 +1,7 @@
 /**
  * Created by Mickey on 7/14/2016.
  */
-public class MissingWords {
+public class FindWords {
 
             public static void main(String[] args){
             String S= "I am using hackerrank to improve programming";
