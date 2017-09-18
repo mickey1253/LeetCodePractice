@@ -46,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/src/code/lint/binary/two/SearchInABigSortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
-              <caret line="35" column="0" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="37" selection-end-column="14" />
+              <caret line="35" column="0" lean-forward="false" selection-start-line="27" selection-start-column="3" selection-end-line="37" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -56,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/python-version/binary/two/SearchInABigSortedArray.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+              <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -66,17 +66,27 @@
         <entry file="file://$PROJECT_DIR$/src/code/lint/binary/two/FindMinimumInRotatedSortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="291">
-              <caret line="30" column="26" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="32" selection-end-column="51" />
+              <caret line="30" column="26" lean-forward="false" selection-start-line="28" selection-start-column="14" selection-end-line="32" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindMinimumInRotatedSortedArray.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FindMinimumInRotatedSortedArray.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python-version/binary/two/FindMinimumInRotatedSortedArray.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
               <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubtreeWithMaximumAverage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/code/lint/binaryTreeDivideConquer/three/SubtreeWithMaximumAverage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -107,8 +117,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Python Script" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -143,6 +153,7 @@
         <option value="$PROJECT_DIR$/python-version/binary/two/SearchInABigSortedArray.py" />
         <option value="$PROJECT_DIR$/src/code/lint/binary/two/FindMinimumInRotatedSortedArray.java" />
         <option value="$PROJECT_DIR$/python-version/binary/two/FindMinimumInRotatedSortedArray.py" />
+        <option value="$PROJECT_DIR$/src/code/lint/binaryTreeDivideConquer/three/SubtreeWithMaximumAverage.java" />
       </list>
     </option>
   </component>
@@ -218,6 +229,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="one" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCodePractice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCodePractice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="three" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -902,7 +935,7 @@
     <option name="totallyTimeSpent" value="15472000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2391" y="-9" width="1818" height="1093" extended-state="7" />
+    <frame x="2391" y="-9" width="1818" height="1093" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1237,7 +1270,7 @@
     <entry file="file://$PROJECT_DIR$/src/code/lint/binary/two/SearchInABigSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="37" selection-end-column="14" />
+          <caret line="35" column="0" lean-forward="false" selection-start-line="27" selection-start-column="3" selection-end-line="37" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1245,7 +1278,7 @@
     <entry file="file://$PROJECT_DIR$/python-version/binary/two/SearchInABigSortedArray.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1253,7 +1286,7 @@
     <entry file="file://$PROJECT_DIR$/src/code/lint/binary/two/FindMinimumInRotatedSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
-          <caret line="30" column="26" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="32" selection-end-column="51" />
+          <caret line="30" column="26" lean-forward="false" selection-start-line="28" selection-start-column="14" selection-end-line="32" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -1262,6 +1295,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/lint/binaryTreeDivideConquer/three/SubtreeWithMaximumAverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
           <folding />
         </state>
       </provider>
