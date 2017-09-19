@@ -3,10 +3,62 @@ package code.lint.binaryTreeDivideConquer.three;
 /**
  * Created by 505007855 on 9/18/2017.
  */
+
+
+class TreeNode {
+     public int val;
+     public TreeNode left, right;
+     public TreeNode(int val) {
+         this.val = val;
+         this.left = this.right = null;
+     }
+ }
+
+
+
 public class SubtreeWithMaximumAverage {
 
+    private class ResultType{
 
-    
+        public int sum;
+        public int size;
+
+        public ResultType(int sum, int size){
+            this.sum = sum;
+            this.size = size;
+        }
+
+    }
+
+    private TreeNode subTree = null;
+    private ResultType subtreeResult = null;
+
+    public TreeNode findSubtree2(TreeNode root){
+        helper(root);
+        return subTree;
+    }
+
+    public ResultType helper(TreeNode root){
+
+        if(root == null){
+            return new ResultType(0, 0);
+        }
+
+        ResultType left = helper(root.left);
+        ResultType right = helper(root.right);
+        ResultType result = new ResultType(left.sum + right.sum + root.val,
+                left.size + right.size + 1);
+
+        if (subTree == null || subtreeResult.sum * result.size < result.sum * subtreeResult.size){
+
+            subTree = root;
+            subtreeResult = result;
+        }
+        return result;
+
+    }
+
+
 
 
 
