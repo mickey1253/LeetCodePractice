@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d01d232d-cffb-45b3-857e-4ee7335ebfa2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/code/lint/binaryTreeDivideConquer/three/SubtreeWithMaximumAverage.java" afterPath="$PROJECT_DIR$/src/code/lint/binaryTreeDivideConquer/three/SubtreeWithMaximumAverage.java" />
-    </list>
+    <list default="true" id="d01d232d-cffb-45b3-857e-4ee7335ebfa2" name="Default" comment="" />
     <ignored path="LeetCode.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,13 +26,13 @@
         <entry file="file://$PROJECT_DIR$/src/code/lint/binaryTreeDivideConquer/three/MinimumSubtree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="522">
-              <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="27" />
+              <caret line="38" column="21" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinimumSubtree.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MinimumSubtree.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python-version/binary/three/MinimumSubtree.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="792">
@@ -45,11 +42,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindMinimumInRotatedSortedArray.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python-version/binary/two/FindMinimumInRotatedSortedArray.py">
+      <file leaf-file-name="BinaryTreePaths.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/code/lint/binaryTreeDivideConquer/three/BinaryTreePaths.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="528">
+              <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlattenBinaryTreeToLinkedList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/code/lint/binary/two/FlattenBinaryTreeToLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4032">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -60,8 +69,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Python Script" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -103,6 +112,9 @@
         <option value="$PROJECT_DIR$/python-version/binary/three/SubtreeWithMaximumAverage.py" />
         <option value="$PROJECT_DIR$/src/code/lint/binaryTreeDivideConquer/three/MinimumSubtree.java" />
         <option value="$PROJECT_DIR$/python-version/binary/three/MinimumSubtree.py" />
+        <option value="$PROJECT_DIR$/src/code/lint/binaryTreeDivideConquer/three/BinaryTreePaths.java" />
+        <option value="$PROJECT_DIR$/python-version/binary/three/BinaryTreePaths.py" />
+        <option value="$PROJECT_DIR$/src/code/lint/binary/two/FlattenBinaryTreeToLinkedList.java" />
       </list>
     </option>
   </component>
@@ -230,6 +242,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="MinimumSubtree.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCodePractice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCodePractice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="three" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BinaryTreePaths.java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -393,27 +431,7 @@
       <recent name="E:\WorkSpaces\LeetCode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.FindMinimumInRotatedSortedArray">
-    <configuration default="false" name="MaximumNumberInMountainSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="code.lint.binary.two.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="code.lint.binary.two.MaximumNumberInMountainSequence" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LeetCode" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.BinaryTreePaths">
     <configuration default="false" name="MaximumNumberInMountainSequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -481,6 +499,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python-version" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-version/binary/two/FindMinimumInRotatedSortedArray.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BinaryTreePaths" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-version/binary/three" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-version" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-version/binary/three/BinaryTreePaths.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -875,19 +910,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.MaximumNumberInMountainSequence" />
-      <item index="1" class="java.lang.String" itemvalue="Python.MaximumNumberInMountainSequence" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SearchInABigSortedArray" />
-      <item index="3" class="java.lang.String" itemvalue="Python.SearchInABigSortedArray" />
-      <item index="4" class="java.lang.String" itemvalue="Python.FindMinimumInRotatedSortedArray" />
+      <item index="0" class="java.lang.String" itemvalue="Python.MaximumNumberInMountainSequence" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SearchInABigSortedArray" />
+      <item index="2" class="java.lang.String" itemvalue="Python.SearchInABigSortedArray" />
+      <item index="3" class="java.lang.String" itemvalue="Python.FindMinimumInRotatedSortedArray" />
+      <item index="4" class="java.lang.String" itemvalue="Python.BinaryTreePaths" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.FindMinimumInRotatedSortedArray" />
-        <item index="1" class="java.lang.String" itemvalue="Python.SearchInABigSortedArray" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SearchInABigSortedArray" />
-        <item index="3" class="java.lang.String" itemvalue="Python.MaximumNumberInMountainSequence" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MaximumNumberInMountainSequence" />
+        <item index="0" class="java.lang.String" itemvalue="Python.BinaryTreePaths" />
+        <item index="1" class="java.lang.String" itemvalue="Python.FindMinimumInRotatedSortedArray" />
+        <item index="2" class="java.lang.String" itemvalue="Python.SearchInABigSortedArray" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SearchInABigSortedArray" />
+        <item index="4" class="java.lang.String" itemvalue="Python.MaximumNumberInMountainSequence" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -936,7 +971,7 @@
     <option name="totallyTimeSpent" value="15472000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2391" y="-9" width="1818" height="1093" extended-state="6" />
+    <frame x="2391" y="-9" width="1818" height="1093" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1311,7 +1346,7 @@
     <entry file="file://$PROJECT_DIR$/python-version/binary/two/FindMinimumInRotatedSortedArray.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1319,7 +1354,7 @@
     <entry file="file://$PROJECT_DIR$/src/code/lint/binaryTreeDivideConquer/three/MinimumSubtree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
-          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="27" />
+          <caret line="38" column="21" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1328,6 +1363,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
           <caret line="24" column="52" lean-forward="false" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-version/binary/three/BinaryTreePaths.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/lint/binaryTreeDivideConquer/three/BinaryTreePaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/lint/binary/two/FlattenBinaryTreeToLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4032">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding />
         </state>
       </provider>
