@@ -27,31 +27,22 @@ return the node 1.
 *
 * */
 
-class TreeNode1 {
-      public int val;
-      public TreeNode1 left, right;
-      public TreeNode1(int val) {
-          this.val = val;
-          this.left = this.right = null;
-      }
-  }
-
 public class MinimumSubtree {
 
-    private TreeNode1 subTree = null;
+    private TreeNode subTree = null;
     private int subTreeSum = Integer.MAX_VALUE;
 
     //@param root: the root of binary tree
      //@return: the root of the minimum subtree
 
-    public TreeNode1 findSubtree(TreeNode1 root) {
+    public TreeNode findSubtree(TreeNode root) {
         // write your code here
 
         helper(root);
         return subTree;
     }
 
-    private int helper(TreeNode1 root){
+    private int helper(TreeNode root){
         if(root==null){
             return 0;
         }

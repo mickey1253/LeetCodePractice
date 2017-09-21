@@ -7,14 +7,7 @@ import java.util.List;
  * Created by 505007855 on 9/19/2017.
  */
 
-class TreeNode3 {
-      public String val;
-      public TreeNode3 left, right;
-      public TreeNode3(String val) {
-          this.val = val;
-          this.left = this.right = null;
-      }
-  }
+
 
 /*
 *
@@ -40,7 +33,7 @@ All root-to-leaf paths are:
 
 public class BinaryTreePaths {
 
-    public List<String> binaryTreePaths(TreeNode3 root) {
+    public List<String> binaryTreePaths(TreeNode_String root) {
 
         List<String> paths = new ArrayList<>();
 
@@ -54,7 +47,7 @@ public class BinaryTreePaths {
         for(String leftPath : leftList){
             paths.add(root + "->" + leftPath);
         }
-        
+
         for(String rightPath : rightList){
             paths.add(root + "->" + rightPath);
         }
@@ -66,9 +59,6 @@ public class BinaryTreePaths {
         return paths;
 
     }
-
-
-
 
 
     // JIU Zhang's Answer
