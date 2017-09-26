@@ -1,9 +1,72 @@
 package code.lint.linkedList.six;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 /**
  * Created by 505007855 on 9/25/2017.
  */
 public class SubarraySum {
+
+    /*
+    *
+    *  List<Intger> list = new ArrayList<>();
+
+        if(nums == null){
+            return null;
+        }
+
+        int i = 0;
+        int sum = nums[i];
+
+        if(sum == 0){
+            list.add(0);
+            list.add(0);
+            return list;
+        }
+
+        while(sum != 0 && i < nums.length){
+
+            sum = sum + nums[i]
+
+        }
+    *
+    * */
+
+
+    public List<Integer> subarraySum(int[] nums) {
+        // write your code here
+
+        int len = nums.length;
+
+        List<Integer> result = new ArrayList<>();
+        Map<Integer, Integer> map = new HashMap<>();
+
+        map.put(0, -1);
+
+        int sum = 0;
+
+        for(int i = 0; i < len; i++){
+
+            sum += nums[i];
+
+            if(map.containsKey(sum)){
+                result.add(map.get(sum) + 1);
+                result.add(i);
+
+                return result;
+            }
+
+            map.put(sum, i);
+
+        }
+
+        return result;
+
+    }
+
 
     /*
     *
