@@ -1,5 +1,6 @@
 package code.lint.linkedList.six;
 
+
 public class MaximumSubarray {
     /*
     *
@@ -15,17 +16,78 @@ Given the array [−2,2,−3,4,−1,2,1,−5,3], the contiguous subarray [4,−1
     *
     * */
 
+
+    public int maxSubArray(int[] nums) {
+
+        if(nums == null){
+            return 0;
+        }
+
+        int max = Integer.MIN_VALUE;
+        int sum = 0;
+
+        for(int i = 0; i < nums.length; i++){
+
+            sum += nums[i];
+            max = Math.max(sum, max);
+            sum = Math.max(sum, 0);
+
+        }
+
+        return max;
+    }
+
     /*
     * @param nums: A list of integers
     * @return: A integer indicate the sum of max subarray
     */
-    public int maxSubArray(int[] nums) {
+   /* public int maxSubArray(int[] nums) {
         // write your code here
+
+        if(nums == null){
+            return Integer.MIN_VALUE;
+        }
+
+        int len = 0;
+
+
+        for(int i = 0; i < nums.length; i++){
+            len += i;
+        }
+
+        int[] subSum = new int[len];
+
+        int[] subArray = new int[nums.length];
+
+        int index = 0;
+
+        for(int j = index; j < nums.length; j++){
+
+            subArray[j] = nums[j];
+
+            subSum[j] = subSum(index, subArray);
+
+        }
+
+
 
         
     }
 
 
+    public int subSum(int index, int[] nums){
+
+        int sum = 0;
+
+        for (int i = 0; i < index; i++){
+            sum += nums[i];
+        }
+
+        return sum;
+
+    }
+
+*/
 
 
     // JIU ZHANG's Answer
