@@ -7,9 +7,12 @@ public class TwoSumInputArrayIsSorted {
    * @param target: target = nums[index1] + nums[index2]
    * @return: [index1 + 1, index2 + 1] (index1 < index2)
    */
-    public int[] twoSum(int[] nums, int target) {
+
+   /*
+   public int[] twoSum(int[] nums, int target) {
         // write your code here
     }
+    */
 
 
     // JIUZHANG'S Answer

@@ -9,11 +9,11 @@ public class SubarraySumClosest {
      * @param nums: A list of integers
      * @return: A list of integers includes the index of the first number and the index of the last number
      */
-    public int[] subarraySumClosest(int[] nums) {
+  /*  public int[] subarraySumClosest(int[] nums) {
         // write your code here
 
 
-    }
+    } */
 
 
     //JIU ZHANG's Answer
