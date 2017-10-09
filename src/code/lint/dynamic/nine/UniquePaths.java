@@ -12,7 +12,7 @@ public class UniquePaths {
 
     if(m == 0 || n == 0){
         return 1;
-    }    
+    }
 
     int[][] sum = new int[m][n];
 
