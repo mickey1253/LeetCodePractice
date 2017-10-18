@@ -20,6 +20,42 @@ import java.util.*;
 
 public class LargestDivisibleSubset {
 
+
+    public static void main(String[] args){
+
+        int[] f = new int[10];
+        int[] pre = new int[10];
+        for (int i = 0; i < 10; i++) {
+            f[i] = 1;
+            pre[i] = i;
+
+            System.out.println("f[i] -> f[" + i + "] --- initial --- " + f[i]);
+            System.out.println("pre[i] -> pre[" + i + "] --- initial --- " + pre[i]);
+            System.out.println();
+
+            for (int j = 0; j < i; j++) {
+                int add = f[j] + 1;
+                System.out.println("f[j] + 1 -> f[" + j + "] +1 = " + add);
+                System.out.println();
+                if (f[i] < f[j] + 1) {
+                    System.out.println("f[i] -> f[" + i + "] --- first --- " + f[i]);
+                    System.out.println("f[j] -> f[" + j + "] --- first --- " + f[j]);
+                    System.out.println();
+                    f[i] = f[j] + 1;
+                    System.out.println("f[i] -> f[" + i + "]  --- second --- " + f[i]);
+                    System.out.println();
+                    pre[i] = j;
+                    System.out.println("pre[i] -> pre[" + i + "]  : " + pre[i]);
+                    System.out.println("--- inner loop end ---");
+                    System.out.println();
+                }
+            }
+            System.out.println("--- outer loop end ---");
+            System.out.println();
+        }
+
+    }
+
     /*
     * @param nums: a set of distinct positive integers
     * @return: the largest subset
