@@ -16,7 +16,7 @@ def dropEggs2(m, n):
             # import struct
             # platform_c_maxint = 2 ** (struct.Struct('i').size * 8 - 1) - 1
             # module 'sys' has no attribute 'maxint'
-            dp[i][j] = sys.maxsize 
+            dp[i][j] = sys.maxsize
             for k in range(1, j + 1):
                 dp[i][j] = min(dp[i][j], 1 + max(dp[i - 1][k - 1], dp[i][j - k]))
     return dp[m][n]
